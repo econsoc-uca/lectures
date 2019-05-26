@@ -1,0 +1,157 @@
+---
+title: "Lectura 2: La economía social y humana"
+author: Rony Rodríguez-Ramírez | Universidad Centroamericana
+date: "`r format(Sys.time(), '%d %B %Y')`" 
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["assets/shinobi.css", "assets/ninpo.css", "assets/ninjutsu.css"]
+    seal: true
+    self_contained: false
+    nature:
+      ratio: "16:9"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+exclude: true
+<style type="text/css">
+code.r{
+  font-size: 16px;
+}
+pre {
+  font-size: 16px !important;
+}
+</style>
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+---
+layout: false
+class: bg-main3 split-30 hide-slide-number
+
+.column[
+
+]
+.column.slide-in-right[.content.vmiddle[
+.sliderbox.shade_main.pad1[
+.font5[La economía social!]
+]
+]]
+
+
+---
+# Ideas de las clase anterior (comentarios)
+ .font_large[ 
+* Estructura de desarrollo y oportunidades de producción. 
+* Mejoramiento del bienestar a través de las políticas públicas. 
+* Medición de los programas sociales actuales. 
+* Fortalecimiento del desarrollo no solo económico pero también humana y social. 
+* Relación de la economía con otros ámbitas (e.g., cultura). 
+ ]
+
+---
+layout: false 
+class: middle bg-main1 hide-slide-number
+
+# La economía social: panorama, discusiones y perspectivas 
+
+
+---
+# Discusión sobre nuestro entorno económico social 
+
+.font_large[
+
+## Un punto importante de la economía social es entender a que nos enfrentamos.
+* ¿Qué economía es la que tenemos? 
+
+No desde el punto de vista de la producción (i.e., ¿qué es lo que producimos?), sino desde quiénes son los que se benefician, bajo qué estructuras, y qué oportunidades existen. 
+
+* ¿Qué debilidades ven ustedes en el sistema actual (en Nicaragua)?
+
+* ¿Cómo se deberían afrontar estas problemáticas? 
+
+] 
+
+---
+# Producir para vivir
+
+.blockquote-grey[
+Según .red[De Sousa Santos] (2011), "los factores esenciales para el avance de las alternativas de producción es su articulación con alternativas económicas progresivas" (p. 22). 
+]
+
+--
+.font_large[
+¿Qué sería progresista acá? 
+]
+
+--
+.font_large[
+Distribución, consumo, redistribución de recursos, políticas de migración, protección de los derechos laborales y ambientales, etc.  
+]
+
+---
+# ¿A qué se debe el surgimiento de nuevas expresiones de producción? 
+
+.font_large[
+La búsqueda de alternativas se da en primera instancia por los efectos excluyentes del capitalismo.
+
+* Sin embargo, muchas de estas ideas son tan antiguas como el propio capitalismo (industrial). 
+* Objetivos: 
+  * Oponerse a la miseria surgida por bajos salarios y condiciones inhumanas de trabajo (e.g., Rochdale). 
+* Eran alternativas al individualismo liberal y el socialismo centralizado. 
+]
+--
+.font_large[
+¿Cuáles eran (son) los .red[ejes centrales] como práctica económica? 
+]
+--
+.font_large[
+* Autonomía. 
+* Igualdad. 
+* Equidad. 
+* Solidaridad.
+]
+
+---
+# ¿Por qué fracasarían este tipo de asociatividad? 
+
+--
+
+.font_large[
+A finales del siglo XIX, se tenía la idea que las .red[cooperativas] eran intrínsicamente inestables (Web y Web, 1897 citado en De Sousa Santos, 2011). 
+]
+
+--
+.font_large[
+* Por un lado, su estructura democrática. 
+* La participación directa. 
+* ¿Qué problemas habrían con esto? ¿Qué otros problemas podrían surgir? 
+]
+
+--
+<center>
+
+## En las próximas clases retomaremos ejemplos y prácticas del cooperativismo. 
+
+---
+class: middle bg-main1 hide-slide-number
+
+# Contexo mundial y latinoamericano de la .yello[economía solidaria (social)] 
+
+---
+# .red[Díaz-Muñoz (2015)] Caracterización de la economía solidaria
+
+.font_large[
+¿Qué nos dice este autor sobre las características de las economía solidaria (social)? 
+]
+
+--
+.font_large[
+La economía solidaria puede ser caracterizada de la siguiente manera: 
+* Desde las esferas de la ecoomía en que se inserta. 
+* Producción de sentido (e.g., valores, principios, etc.).
+* 
+]
+
