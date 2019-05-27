@@ -49,13 +49,19 @@ class: bg-main3 split-30 hide-slide-number
 * Medición de los programas sociales actuales. 
 * Fortalecimiento del desarrollo no solo económico pero también humana y social. 
 * Relación de la economía con otros ámbitas (e.g., cultura). 
+
+
+__Anuncios:__
+* El EVA está funcionando. 
+* Tenemos también página en [Github](https://github.com/econsoc-uca), por si quieren el código de estas presentaciones. 
  ]
 
 ---
 layout: false 
 class: middle bg-main1 hide-slide-number
 
-# La economía social: panorama, discusiones y perspectivas 
+# .yellow[La economía social:] 
+# panorama, discusiones y perspectivas 
 
 
 ---
@@ -140,7 +146,7 @@ A finales del siglo XIX, se tenía la idea que las .red[cooperativas] eran intr�
 ---
 class: middle bg-main1 hide-slide-number
 
-# Contexo mundial y latinoamericano de la .yello[economía solidaria (social)] 
+# Contexo mundial y latinoamericano de la .yellow[economía social] 
 
 ---
 # .red[Díaz-Muñoz (2015)] Caracterización de la economía solidaria
@@ -213,6 +219,13 @@ Comparemos la necesidad de una economía social con el primer capítulo de Sen (
 <center>
 ¿Es plausible integrar Sen (2009) en los aspectos de la economía social? 
 ]
+
+--
+
+
+<center>
+
+<img src="figs/justice.gif" width="230">
 
 ---
 # Noción de la justicia interelacionada con la economía social
@@ -358,11 +371,29 @@ class: middle bg-main2 hide-slide-number
 
 .font_large[
 __Fecha de entrega:__ 
-* Junio 3: 18:00 por el EVA. 
+* Junio 3: 18:00 por el EVA. Entregar solo un archivo .red[pdf]. 
 
 __Idea a discutir:__
+* El tema del ensayo es de elección libre; sin embargo, se enmarca en la primera unidad.
 
 __Referencias, esquema y diseño:__ 
-* Seguir las recomendaciones escritar en la agenda de trabajo. 
+* Seguir las recomendaciones escritar en la agenda de trabajo.Estilo APA, al menos 2 textos proporcionados por mi y 2 investigados por el estudiante. 
+
+__Extensión y estética__: 
+* 1 página. Márgenes: normales. Interlineado: sencillo. Fuente: Times New Roman. Tamaño: 12. 
+]
+
+---
+# Ensayo Individual
+
+.font_large[
+Por último, revisen el .red[`r anicon::nia("EVA!")`]. Les he compartido una plantilla del estilo del ensayo.
+
+<center>
+
+<img src="figs/surprise.gif" width="250">
+
+Recuerdo visitar la página en [github](https://github.com/econsoc-uca) por si necesitan el código de estas presentaciones. 
 
 ]
+
