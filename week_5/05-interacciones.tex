@@ -1,0 +1,190 @@
+\documentclass[11pt, aspectratio=169, compress]{beamer}
+\usetheme[progressbar=frame title, numbering=fraction]{metropolis}      % Use metropolis theme 
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
+\useoutertheme[subsection=false]{miniframes}
+\setbeamercolor{section in head/foot}{fg=white, bg=mDarkTeal}
+\setbeamercolor{background canvas}{bg=white}
+\setbeamerfont{section in head/foot}{series=\bfseries}
+
+\usefonttheme[onlymath]{serif}
+\usepackage{amsmath}
+\usepackage{remreset}
+\usepackage{ragged2e}
+\usepackage{booktabs}
+\usepackage{makecell}
+\usepackage{float}
+\usepackage{subfig}
+\usepackage{tikz}
+\usetikzlibrary{positioning,calc}
+\usepackage[flushleft]{threeparttable}	% 3 part table 
+\usepackage[justification=centering]{caption}
+\captionsetup{skip=0pt}
+\graphicspath{{./fig/}}
+
+\makeatletter
+\let\beamer@writeslidentry@miniframeson=\beamer@writeslidentry
+\def\beamer@writeslidentry@miniframesoff{%
+	\expandafter\beamer@ifempty\expandafter{\beamer@framestartpage}{}% does not happen normally
+	{%else
+		% removed \addtocontents commands
+		\clearpage\beamer@notesactions%
+	}
+}
+\newcommand*{\miniframeson}{\let\beamer@writeslidentry=\beamer@writeslidentry@miniframeson}
+\newcommand*{\miniframesoff}{\let\beamer@writeslidentry=\beamer@writeslidentry@miniframesoff}
+\beamer@compresstrue
+\makeatother
+
+%==============================================================
+% Title Page
+%==============================================================
+%Information to be included in the title page:
+\title{Interacciones sociales | Economía del comportamiento}
+\author{Rony Rodriguez-Ramírez} 
+\institute{Economía Social y Humana | Grupo B018 \\Universidad Centroamericana}
+\titlegraphic{\hfill\includegraphics[height=1.5cm]{uca}}
+\date{\today}
+%==============================================================
+\begin{document}
+	
+\begin{frame}[plain]
+	\maketitle  
+\end{frame}
+
+%\begin{frame}{Outline}
+%\tableofcontents[hideallsubsections]
+%\end{frame}
+%------------------------------------------------
+\section{Comentarios y anuncios}
+%-----------------------------------------------
+\subsection{Comentarios y anuncios}
+%-----------------------------------------------
+\begin{frame}{Comentario y anuncios}
+\begin{itemize}
+	\item ¿Cómo les fue en el ensayo? 
+	\item Relación instituciones y economía social: 
+	\begin{itemize}
+		\item ¿Por qué el paper de los esclavos en Africa la semana pasada? 
+	\end{itemize}
+	\item La economía social como filosofía política vs la economía social como la intervención social en la economía. 
+\end{itemize}
+\end{frame}
+%------------------------------------------------
+\section{Introducción a la economía del comportamiento}
+%------------------------------------------------
+\subsection{Introducción a la economía del comportamiento}
+%------------------------------------------------
+\begin{frame}{Economía del comportamiento}
+De manera general: 
+
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Ejemplos de los sistemas}
+\begin{enumerate}
+	\item Un bate y una pelota cuestan 1,10 dólares en total. El bate cuesta 1 dólar
+	más que la pelota. ¿Cuánto cuesta la pelota? \_\_\_ centavos.
+	\item Si 5 máquinas hacen 5 artículos en 5 minutos, ¿cuánto tardarán 100
+	máquinas en hacer 100 artículos? \_\_\_ minutos.
+	\item En un lago hay una superficie cubierta de nenúfares. Cada día esa extensión
+	dobla su tamaño. Si tarda 48 días en cubrir todo el lago, ¿cuánto tarda en
+	cubrir la mitad del lago? \_\_\_ días.
+\end{enumerate}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Reglas básicas}
+	Para Thaler y Sunstein (2017) las reglas básicas son muy útiles pero nos pueden conducir a \textit{sesgos}. Tres reglas básicas: 
+	\begin{itemize}
+		\item Anclaje. 
+		\item Disponibilidad. 
+		\item Represntatividad.  
+	\end{itemize}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Reglas básicas}
+	Anclaje: 
+	\begin{itemize}
+		\item Se comienza con una \textit{ancla} y se ajusta a la dirección que se considera apropriada. Ejemplo de la población. 
+		\item Dos tipos de anclas: altas y bajas. 
+		\item Las anclas actuan como \textit{nudges} (empujones).  
+	\end{itemize}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Disponibilidad}
+	La disponibilidad se trata de evaluar el riesgo asociado a ciertos ejemplos. 
+	\begin{itemize}
+		\item Si alguno de ustedes ha experimentado cierto evento (o program), seguramente tendrán mejor noción sobre la importancia o la magnitud de ese evento. 
+		\item El heurístico de la disponibilidad explica las conductas relacionadas al riesgo. 
+		\item Valoraciones sesgadas: 
+		\begin{itemize}
+			\item influyen en cómo nos preparamos para las decisiones económicas, crisis, etc. 
+			\item Valoración real del riesgo actual de un evento. 
+		\end{itemize}
+	\end{itemize}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Representatividad}
+	Representatividad o Semejanza: 
+	\begin{itemize}
+		\item Este es un sesgo con bastante frecuencia. 
+		\item Puede causar distorsiones en la percepción. 
+		\begin{itemize}
+			\item Ejemplo de la tirar la moneda al aire y que caiga tres veces cara.
+			\item Ejemplo de la muñeca caliente en el baloncesto. 
+		\end{itemize}
+		\item 
+	\end{itemize}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Optimismo y exceso de confianza}
+	Emprender un negocio y el dilema de la esperanza: 
+	\begin{itemize}
+		\item El optimismo no realista puede en cierta medida explicar los riesgos individuales. 
+		\item Es un rasgo universal de la vida humana. 
+		\item Siempre se puede utilizar un nudge para balancear este optimismo. 
+	\end{itemize}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Algunos otros ejemplos}
+	\begin{itemize}
+		\item Gananzas y pérdidas. 
+		\item El sesgo del statu quo.		
+	\end{itemize}
+\end{frame}
+%------------------------------------------------
+\section{Relación con la economía social}
+\subsection{Relación con la economía social}
+%------------------------------------------------
+\begin{frame}{Panorama general}
+	Aunque pareciera, de manera general, que no hay relación, si la hay: 
+	\begin{itemize}
+		\item Las personas adoptan reglas básicas que influyen en sus decisiones. 
+		\item Muchas veces reaccionamos de manera muy sesgada. 
+		\item A las personas se les pueden orientar mediante \textit{nudges}.
+	\end{itemize}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Economía social y economía del comportamiento}
+	Retomémoms un poco sobre la probabilidad de existo un program social, una cooperativa, entre otras cosas. 
+	\begin{itemize}
+		\item ¿Qué sesgos se les viene a la mente? 
+		\item ¿Por qué fracasarían? ¿Por qué tendrían exito? 
+	\end{itemize}
+\end{frame}
+%------------------------------------------------
+\begin{frame}{Economía social y economía del comportamiento}
+Con la economía del comportamiento podemos ver como se han impulsados programas sociales o actividades de apoyo comunitario. 
+\begin{itemize}
+	\item La próxima semana comenzaremos de lleno a ver ejemplos de papers que han trabajados estos empujones.
+\end{itemize}
+\end{frame} 
+
+%==============================================================
+% END
+%==============================================================
+\miniframesoff 	
+\begin{frame}[plain, standout]
+Nos vemos la siguiente semana. 
+\end{frame}
+
+\end{document}		
