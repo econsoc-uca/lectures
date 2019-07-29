@@ -1,0 +1,27 @@
+.column-left{
+  float: left;
+  width: 49%;
+  text-align: left;
+}
+.column-right{
+  float: right;
+  width: 49%;
+  text-align: left;
+}
+
+body{
+  font-size: 14pt;
+}
+
+code.stata{
+  font-size: 12px;
+  font-family: 'Fira Code';
+}
+code.r{ /* Code block */
+    font-size: 12px;
+    font-family: 'Fira Code';
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 12px;
+    font-family: 'Fira Code';
+}
