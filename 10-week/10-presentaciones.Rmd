@@ -1,0 +1,62 @@
+---
+title: "Presentaciones de grupos"
+subtitle: "<html><div style='float:left'></div><hr color='#EB811B' size=1px width=796px></html>"
+author: Rony Rodríguez-Ramírez | Universidad Centroamericana<br>B018
+date: "`r format(Sys.time(), '%d %B %Y')`<br>`r anicon::faa('rocket', animate='float', rtext='&nbsp;rony.maximiliano@doc.uca.edu.ni')`" 
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["assets/default.css", "assets/metropolis.css", "assets/metropolis-fonts.css"]
+    seal: true
+    self_contained: false
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+    includes: 
+      after_body: "assets/collapseoutput.js"
+---
+exclude: true
+<style type="text/css">
+code.r{
+  font-size: 16px;
+}
+pre {
+  font-size: 16px !important;
+}
+</style>
+
+---
+# Comentarios 
+
+Resultados del ensayo: 
+* Media: 7.8 
+* Relación con el primer ensayo. 
+
+Resultados del taller: 
+* Media: 19
+* ¿Bastante fácil no? 
+
+Ya con esto, llevamos 55 puntos acumulados. 
+* Quedan pendiente la presentación y el taller númeor 2.
+* Noticias sobre el segundo taller al final de la clase.
+
+---
+# Comentarios
+
+<img src="figs/fig1.png">
+
+---
+# Presentaciones grupales
+
+* Primero, vamos a seleccionar a los grupos que van a exponer hoy: 
+
+.details[
+```{r sample}
+sample(1:5, 5, replace = FALSE)
+```
+] 
+
+--
+* Tendrán solamente 20 minutos, no habrá más tiempo. 
+* Claramente pueden terminar antes. 
